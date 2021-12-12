@@ -1,5 +1,5 @@
 package Pet
 
 type IPetRepository interface {
-	Save(pet *Pet) (error error)
+	Save(pet *Pet) (result *Pet, error error)
 }
