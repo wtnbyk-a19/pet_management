@@ -4,4 +4,5 @@ import "pet_management/src/Domain/User"
 
 type UserRepository interface {
 	Insert(user *User.User) (*User.User, error)
+	Update(user *User.User) (*User.User, error)
 }
